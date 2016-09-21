@@ -13,7 +13,14 @@ table{
 }
 body{
     background:url("http://wallpapercave.com/wp/zy68brh.jpg");
+    
 }
 td,th{
     border:1px ridge white;
+}
+a.green:hover{
+    color:green;
+}
+a.red:hover{
+    color:red;
 }
