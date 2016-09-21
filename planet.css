@@ -1,14 +1,19 @@
-h1, td{
+h1, td,th{
     text-align:center;
-}
-h2{
-    font-style:italic;
-    text-align:center;
+    color:white;
 }
 img{
     display:block;
     margin:auto;
+    width:200px;
 }
 table{
     width:100%;
+    border:1px ridge white;
+}
+body{
+    background:url("http://wallpapercave.com/wp/zy68brh.jpg");
+}
+td,th{
+    border:1px ridge white;
 }
