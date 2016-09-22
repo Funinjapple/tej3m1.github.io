@@ -1,29 +1,48 @@
+/* Makes header, table data, and table header aligned in the center and makes the font white */
+
 h1, td,th{
     text-align:center;
     color:white;
 }
+
+/* Makes all images formatted to be 200 pixels wide and centered */
+
 img{
     display:block;
     margin:auto;
     width:200px;
 }
+
+/* Makes all tables fill the full width of the web page, while also making the border of the table white  */
 table{
     width:100%;
     border:1px ridge white;
 }
+
+/* Makes background black */
+
 body{
     background-color:black;
-    
 }
+
+/* Makes background black */
+
 td,th{
     border:1px ridge white;
 }
+
+/* Makes the button (link) have a green background with a white font, 
+extending 10 pixels from every direction and aligning it to the left */
+
 .green:link{
     color:white;
     background-color:green;
     padding:10px 10px 10px 10px;
     float:left;
 }
+
+/* Changes green buttons to have a white background with green font --> */
+
 .green:hover{
     color:green;
     text-align: center;
@@ -31,12 +50,19 @@ td,th{
     padding:10px 10px 10px 10px;
     float:left;
 }
+
+/* Makes the button (link) have a red background with a white font, 
+extending 10 pixels from every direction and aligning it to the right */
+
 .red:link{
     color:white;
     background-color:red;
     padding:10px 10px 10px 10px;
     float: right;
 }
+
+/* Changes red buttons to have a white background with red font */
+
 .red:hover{
     background-color:white;
     color:red;
